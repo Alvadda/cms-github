@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Alvadda/cms-github#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "express": "^4.17.3"
   },
   "devDependencies": {
