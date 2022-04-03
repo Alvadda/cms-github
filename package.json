@@ -21,7 +21,8 @@
   "homepage": "https://github.com/Alvadda/cms-github#readme",
   "dependencies": {
     "axios": "^0.26.1",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "node-cache": "^5.1.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
