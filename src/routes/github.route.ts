@@ -1,9 +1,9 @@
 import { Router } from 'express'
-import { getContent, getFile } from '../controller/github.controller'
+import { getFiles, getFile } from '../controller/github.controller'
 
 const router = Router()
 
-router.get('/', getContent)
+router.get('/', getFiles)
 router.get('/:file', getFile)
 
 export default router

@@ -11,3 +11,4 @@ app.listen(5000, () => {
 })
 
 app.use('/github', githubRoute)
+console.log(process.env.NODE_ENV)
